@@ -1,6 +1,5 @@
-Voici le code que j'ai utilisé pour realiser les requetes demander, je n'ai pas su utiliser l'api donc j'ai rechercher et ajouter un fichier avec les coordonnées gps 
-pour continuer sur workbench. j'ai aussi réalisé "L'outil de Bernado" via Power BI.
-
+Voici le code que j'ai utilisé pour réaliser les requêtes demander, je n'ai pas su utiliser l'api donc j'ai recherché et ajouter un fichier avec les coordonnées GPS 
+pour continuer sur workbench, le challenge n'est pas totalement terminé, car je n'ai pas ajouté le nombre de locations.
 
 select first_name, last_name, address.address_id, address.address, address.city, laposte_hexasmal.code_postal, laposte_hexasmal.coordonnees_gps
 from customer, address, laposte_hexasmal
